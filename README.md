@@ -68,4 +68,4 @@ The project successfully transformed raw, complex data into a structured, highly
 
 ### **Next Steps:**
 * Implement scheduling (e.g., using **Mage**) to automate the ETL pipeline for incremental data loads.
-* Integrate additional external datasets (e.g., public holiday or weather data) into new dimension tables to enrich the analysis.
+
