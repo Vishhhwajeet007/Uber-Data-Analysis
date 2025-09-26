@@ -11,7 +11,6 @@ The primary objective is to implement a robust **Extract, Transform, Load (ETL)*
 ---
 
 ## Tools & Project Architecture
-![Alt Text for Architecture%20Diagram](Architecture Diagram.png)
 This project leverages the **Google Cloud Platform (GCP)** ecosystem and standard data engineering tools to build a scalable, cloud-based data solution.
 
 ### 🛠️ Key Technologies
