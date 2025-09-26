@@ -1,6 +1,6 @@
 # 🚕 Uber Trip Data Dimensional Modeling and Analytics
 
-## Introduction / Problem Statement / Objective
+## Objective
 
 ### 💡 Problem Statement
 The raw **CSV data** for Uber trips is currently stored in a **flat file structure**. This flat structure is sub-optimal for sophisticated querying, performance-intensive business intelligence (BI) reporting, and large-scale data analysis due to data redundancy and lack of clear structure.
