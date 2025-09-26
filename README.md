@@ -59,6 +59,7 @@ The Python script served as the core transformation engine, performing sequentia
 ## Findings / Outcome
 
 The project successfully transformed raw, complex data into a structured, highly performant analytical asset.
+[![View Live Dashboard in Looker Studio](https://img.shields.io/badge/View_Dashboard-Looker%20Studio-blue?style=for-the-badge&logo=google-cloud)](https://lookerstudio.google.com/s/roQjqrRIces)
 
 ### 📊 Key Outcomes
 * **Optimized Performance:** The **Star Schema** architecture drastically reduced data redundancy and significantly improved query performance in BigQuery compared to analyzing the original flat file.
