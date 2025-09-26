@@ -1,2 +1,0 @@
-Live Uber Trip Analytics Dashboard URL:
-[https://lookerstudio.google.com/reporting/2c8a4aff-6b73-4ea0-8bf5-3ed6c47ecfde]
