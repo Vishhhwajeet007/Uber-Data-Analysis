@@ -1,3 +1,14 @@
+-- Revenue Breakdown
+SELECT
+  SUM(ft.fare_amount) AS total_fare,
+  SUM(ft.extra) AS total_extra_fees,
+  SUM(ft.mta_tax) AS total_mta_tax,
+  SUM(ft.tolls_amount) AS total_tolls,
+  SUM(ft.improvement_surcharge) AS total_surcharge,
+  SUM(ft.total_amount) AS grand_total_revenue
+FROM
+  `uber-data-analysis-473212.Uber_dataset.fact_table` AS ft;
+
 -- Total Amount by Payment Type
 SELECT payment_type_name, ROUND(SUM(total_amount),2) AS Total_amount
 FROM `uber-data-analysis-473212.Uber_dataset.tbl_analysis_report`
@@ -43,4 +54,5 @@ JOIN
 GROUP BY
   1
 ORDER BY
+
   total_fare_and_tip DESC;
