@@ -18,7 +18,7 @@ This project leverages the **Google Cloud Platform (GCP)** ecosystem and standar
 | :--- | :--- | :--- |
 | **Data Source** | Flat CSV File | Source of raw Uber trip records. |
 | **Data Modeling** | **Lucidchart** | Visual design and documentation of the Star Schema (Fact and Dimension tables). |
-| **ETL Pipeline** | **Python** / Pandas | Scripting, data cleaning, and core dimensional transformation logic. |
+| **ETL Pipeline** | **Python** ( Pandas )| Scripting, data cleaning, and core dimensional transformation logic. |
 | **Data Warehouse** | **Google BigQuery** | Scalable, serverless cloud data warehouse for storing the optimized Fact and Dimension tables. |
 | **Visualization** | **Looker Studio** | Creating interactive dashboards to derive insights from the modeled data in BigQuery. |
 
@@ -29,9 +29,9 @@ The architecture illustrates the flow of data from the raw source through the di
 
 The key stages are:
 1.  **Extract:** Raw CSV data is ingested.
-2.  **Model/Transform:** Python scripts apply the **Star Schema design** (Fact and Dimension tables) to transform the flat file.
+2.  **Model & Transformation:** Python scripts apply the **Star Schema design** (Fact and Dimension tables) to transform the flat file.
 3.  **Load:** The structured tables are loaded into **BigQuery**.
-4.  **Analyze/Visualize:** Looker Studio connects to BigQuery for report generation.
+4.  **Analyze & Visualize:** Looker Studio connects to BigQuery for report generation.
 
 ---
 
